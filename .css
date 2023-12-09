@@ -1,0 +1,55 @@
+body {
+  font-family: sans-serif;
+  background-color: #BD0019;
+}
+
+h1 {
+  color: white;
+  font-family: 'Mountains of Christmas', serif;
+  text-align: center;
+  text-decoration: underline overline dotted #00873E;
+  font-size: 70px;
+}
+
+p {
+  color: white;
+  text-align: center;
+  font-family: Georgia;
+  font-size: 20px;
+}
+
+button {
+  background-color: #00873E;
+  font-family: Georgia;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  width: 300px;
+}
+
+button:hover {
+  background-color: #04AA6D; /* Green */
+  color: white;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.playlist-container {
+  color: white;
+  font-family: Georgia;
+  text-align: center;
+}
+
+ol {
+  display: inline-block;
+  line-height: 30px;
+}
